@@ -24,11 +24,9 @@ public class ejercicio06 {
       }
     contador++;
     }
-    if(numI>num){
-        System.out.println("el numero "+numI+" es mayor que el que estoy pensando");
-      } else if(numI<num){
-        System.out.println("el numero "+numI+" en menor que el que estoy pensando");
-        }
+    if((numI!=num)&&(contador>=5)){
+    System.out.println("Se han acabado los intentos");
+    }
   }
 
 }
